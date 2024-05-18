@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import Style from './BaseLayout.module.scss'
-import Navbar from "./Navbar";
-import { useLocation } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
-import MultiPageRoutes from './MultiPageRoutes';
-import { singlePage } from '../info/Info';
-import SinglePageRoutes from './SinglePageRoutes';
+import React, { useEffect, useState } from 'react';
+import { useLocation } from "react-router-dom";
 import useScrollObserver from '../hooks/useScrollObserver';
+import { singlePage } from '../info/Info';
+import Style from './BaseLayout.module.scss';
+import MultiPageRoutes from './MultiPageRoutes';
+import Navbar from "./Navbar";
+import SinglePageRoutes from './SinglePageRoutes';
 
 export default function BaseLayout() {
    const location = useLocation()
@@ -49,8 +49,8 @@ export default function BaseLayout() {
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                   py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
-                  <p>template created with &hearts; by <a href={'https://paytonpierce.dev'}>Payton Pierce</a></p>
-                  <p>&copy; 2023</p>
+                  <p>created with &hearts; by <a href={'https://mamunhowlader.com'}>Mamun Howlader</a></p>
+                  <p>&copy; 2024</p>
                </Box>
             </Grid>
          </Grid>
