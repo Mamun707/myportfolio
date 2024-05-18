@@ -26,18 +26,18 @@ of what each of the values mean.
 export const info = {
     firstName: "Mamun",
     lastName: "Howlader",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
+    initials: "👨🏻‍💻", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Software Engineer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
+            emoji: '🧋',
             text: 'fueled by coffee'
         },
         {
-            emoji: '🌎',
+            emoji: '🗺️',
             text: 'based in the Bangladesh'
         },
         {
@@ -45,7 +45,7 @@ export const info = {
             text: "Software Engineer at Nexdecade Technology (Pvt.) Ltd."
         },
         {
-            emoji: "📧",
+            emoji: "📨",
             text: "mamunhowlader707@gmail.com"
         }
     ],
